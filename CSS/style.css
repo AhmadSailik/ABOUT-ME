@@ -5,18 +5,21 @@ header h1{
     color: rgba(27, 3, 66, 0.781);
     font-size: 100px;
     font-weight: bolder;
-    height: 150px;
+    height: 90px;
     background-color:rgb(132, 148, 199);
+    
 }
 
 #first img{
     float: left;
+    padding-left: 20px;
 }
 #first p{
     font-size: x-large;
-    height: 200px;
+    height: 150px;
     color: whitesmoke;
     background-color: rgb(92, 156, 182);
+    padding-left: 200px;
 }
 #second{
     background-color: rgb(92, 156, 182);
@@ -26,12 +29,14 @@ header h1{
     color: rgba(27, 3, 66, 0.781);
     font-size: 60px;
     font-weight: bolder;
-    height: 80px;
+    height: 50px;
     background-color:rgb(134, 154, 218);
+    
 }
 #second p{
     font-size: x-large;
-    height: 100px;
+    height: 50px;
+    padding-left: 20px;
     
 }
 #third{
@@ -39,7 +44,8 @@ header h1{
 }
 .one{
     display: inline-block;
-    height: 300px;
+    height: 250px;
+    padding-left: 220px;
     
 }
 
@@ -54,5 +60,27 @@ footer{
     vertical-align:middle;
     font-size: x-large;
     font-weight: bold;
-    height: 50px;
+    height: 0px;
+}
+#fourth ol {
+overflow: scroll;
+height: 125px;
+padding-left: 80px;
+width: 309.5px;
+background-color: rgb(182, 179, 179);
+
+}
+#fourth ol li{
+    font-size: x-large;
+}
+#fourth h2{
+    font-size: xx-large;
+    height: 40px;
+    background-color: bisque;
+    width: 350px;;
+    padding-left: 40px;
+}
+#fourth{
+    height: 100px;
+    
 }
