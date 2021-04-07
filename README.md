@@ -6,7 +6,7 @@ I build an page as guessing game and and share my information with you inside th
 
 ### Author: Ahmad Abu Sailik
 
-*I was driver is osama* 
+*I was driver is osama al-shararbeh*
 
 *i was navitigator is ahmad*
 
