@@ -1,9 +1,11 @@
 'use strict'
-
-let userName=prompt('what\'s your name?')
+let userName= null;
+function question1(){
+ userName=prompt('what\'s your name?')
 alert('welcome '+userName)
+}
 let score=0;
-
+function question2(){
 let questionOne=prompt('Do you think my first name is ahmad')
 questionOne = questionOne.toLowerCase();
 console.log(questionOne)
@@ -19,9 +21,9 @@ switch(questionOne){
     break;
     default:
   alert('type yes,no');
-  
 }
-
+}
+function question3() {
 let questionTwo=prompt('Do you think my age is 27')
 questionTwo = questionTwo.toLowerCase();
 console.log(questionTwo)
@@ -37,10 +39,9 @@ switch(questionTwo){
     break;
     default:
   alert('type yes,no');
- 
-
 }
-
+}
+function question4() {
 let questionThird=prompt('Do you think my job is engineer')
 questionThird = questionThird.toLowerCase();
 console.log(questionThird)
@@ -56,9 +57,9 @@ switch(questionThird){
     break;
     default:
   alert('type yes,no');
-  
 }
-
+}
+function question5(){
 let questionFourth=prompt('Do you think my language is arabic')
 questionFourth = questionFourth.toLowerCase();
 console.log(questionFourth)
@@ -74,9 +75,9 @@ switch(questionFourth){
     break;
     default:
   alert('type yes,no');
- 
 }
-
+}
+function question6(){
 let questionFifth=prompt('Do you think my favorite game is tennis ')
 questionFifth = questionFifth.toLowerCase();
 console.log(questionFifth)
@@ -92,12 +93,8 @@ switch(questionFifth){
     break;
     default:
   alert('type yes,no');
- 
 }
-
-
-
-
+}
 // let weight='';
 // for(let i=0;i<4;i++){
 // weight=prompt('what do you think my weight')
@@ -117,6 +114,7 @@ switch(questionFifth){
 // }
 // }
 //question six
+function question7(){
 let weight='';
 for(let i=0;i<4;i++){
   weight=prompt('what do you think my weight?')
@@ -135,8 +133,9 @@ if(weight===98){
 if(weight!==98){
   alert('the correct weight is 98')
 }
-
+}
 //question seven
+function question8(){
 let dash=''
 var favDash=['shawarma','burger','mansaf']
 for(let i=0;i<6;i++){
@@ -152,8 +151,11 @@ for(let i=0;i<6;i++){
   }
 }if(dash!==favDash[0]&& dash!==favDash[1]&& dash!==favDash[2]){
   alert('my favorite dash is shawarma or burger or mansaf')
-}
+} 
+} 
+question1(); question2(); question3();
+question4(); question5 (); question6 (); question7(); question8();
 alert('Thanks for playing your socre is ' +  score)
 alert('welcome '+userName+' my name is ahmad and my age is 27, my job is engineer, my language is arabic, my favorite game is tennis, my favorite dash is shawarma or burger or mansaf and my weight is 98  ')
- 
 //hi world 
+// hi ahmad :slightly_smiling_face:
