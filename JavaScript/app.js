@@ -170,4 +170,5 @@ question4(); question5 (); question6 (); question7(); question8();
 
 alert('Thanks for playing your socre is ' +  score)
 alert('welcome '+userName+' my name is ahmad and my age is 27, my job is engineer, my language is arabic, my favorite game is tennis, my favorite dash is shawarma or burger or mansaf and my weight is 98  ')
-
+ 
+//hi world 
